@@ -1,0 +1,90 @@
+body{
+   /* background-color:#474448 */
+   background-color:#000000;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight:300;
+}
+
+.top-section {
+   position:relative;
+   padding: 0px !important;     
+}
+
+.navbar {
+   position:absolute;
+   top:30px;
+   z-index:10;
+   background:transparent !important;
+   width:100%;
+   font-size:1.3rem;
+   font-weight:300;
+   letter-spacing: 0.2rem;
+
+}
+.carousel-content{
+position: absolute;
+top: 310px;
+right: 310px;
+font-family: 'Dancing Script', cursive;
+color:#F5F4F5;
+background-color: #000000;
+font-size:3rem;
+-webkit-text-stroke: 0.5px #DEB841;; 
+}
+
+
+
+.container-title{
+   margin-top: 3rem;
+   /* color:#F5F4F5; */
+   color:#DEB841;
+   word-spacing: 1rem;
+   letter-spacing: 0.5rem;
+   -webkit-text-stroke: 0.5px #DEB841;
+   font-family: 'Dancing Script', cursive;
+}
+
+.carousel .carousel-item {
+   height: 100vh;
+ }
+ 
+ .carousel-item img {
+     position: absolute;
+     object-fit:cover;
+     top: 0;
+     left: 0;
+     min-height: 100vh;
+ }
+
+ .card{
+   width:25rem !important;
+   background: transparent;
+   border: none !important;
+ }
+
+ .card-img-top{
+   border-radius: 8px;
+ }
+
+ .card-title{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 3rem;
+   line-height: 56px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   letter-spacing: 0.2rem;
+   color: #FFFFFC;
+ }
+
+ .card-text{
+   font-style: normal;
+   font-weight: 300;
+   font-size: 21px;
+   display: flex;
+   align-items: center;
+   text-align: left;
+   color: #BEB7A4;
+ }

@@ -2,7 +2,7 @@ body{
    /* background-color:#474448 */
    background-color:#000000;
    font-family: 'Noto Sans JP', sans-serif;
-   font-weight:300;
+  
 }
 
 .top-section {
@@ -17,22 +17,53 @@ body{
    background:transparent !important;
    width:100%;
    font-size:1.3rem;
+   font-weight:400;
    font-weight:300;
    letter-spacing: 0.2rem;
  color: #FFFFFC;
 }
+.custom-carousel{
+  background: url("./Img/bg.png");
+  height:100vh;
+  background-size: cover;
+  
+}
 .carousel-content{
 position: absolute;
-top: 310px;
-right: 310px;
-font-family: 'Dancing Script', cursive;
-color:#F5F4F5;
-background-color: #000000;
-font-size:3rem;
--webkit-text-stroke: 0.5px #DEB841;; 
+top:0px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
 }
 
+.carousel-content .subtitle{
+  font-family: 'Dancing Script', cursive;
+  color:#F5F4F5;
+  /* background-color: #000000; */
+ font-size:4vw;
+ -webkit-text-stroke: 0.5px #DEB841; 
+}
 
+.carousel-content .title{
+  font-family: 'Nunito', sans-serif;
+  color:#F5F4F5;
+  font-size:8vw;
+}
+
+.neon {
+  color: #FFFFFC;
+  text-shadow:
+    0 0 5px #FFFFFC,
+    0 0 40px #f0e56e,
+    0 0 80px #f0e56e,
+    0 0 120px #f0e56e;
+
+    /* 0 0 40px  #f2e707,
+    0 0 80px  #f2e707,
+    0 0 120px  #f2e707; */
+}
 
 .container-title{
    margin-top: 3rem;
@@ -88,3 +119,48 @@ font-size:3rem;
    text-align: left;
    color: #BEB7A4;
  }
+
+
+/* swiper css */
+ .swiper-container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #FFFFFC;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-custom
+{
+height:20rem;
+margin :2rem
+}
+
+slider-heading{
+  color:FFFFFC;
+}

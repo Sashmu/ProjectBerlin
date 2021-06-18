@@ -1,13 +1,14 @@
-.carousle-item{
-    height:32rem;
-    background:#777;
-    color:white; 
-    position: relative;
-   }
-   .container{
-     position:absolute;
-     bottom:0;
-     left:0;
-     right:0;
-     padding-bottom:50px;
-   }
+.holdingcontainer{
+  width: 100%;
+  display: flex;
+  background: black;
+}
+.internalcontainerL{
+  flex: 1;
+  background: red;
+
+}
+.internalcontainerR{
+  flex: 1;
+  background: cyan;
+}

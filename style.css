@@ -88,3 +88,44 @@ font-size:3rem;
    text-align: left;
    color: #BEB7A4;
  }
+   /* <!--Natalie> */
+ .holdingcontainer{
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.internalcontainerL{
+  flex: 1;
+  background:black;
+  padding: 30px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin: 3px;
+  color: white;
+}
+.internalcontainerM{
+  flex: 1;
+  background: black;
+  padding: 30px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin: 3px;
+  color: white;
+}
+.internalcontainerR{
+  flex: 1;
+  background: black;
+  padding: 30px;
+  font-size: 12px;  
+  font-family: 'Roboto', sans-serif;   
+  margin: 3px; 
+  color: white;
+}
+@media screen and (max-width: 768px){
+ .holdingcontainer{
+  flex-direction: column;
+ }
+}
+/* <!--Natalie> */

@@ -261,6 +261,18 @@ background-color:#DCDCDC ;
   border:3px solid black;
  
 }
+.barname{
+ color: #282C35 ;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:2rem
+ }
+ .bar-content{
+  color: #282C35;
+  font-family: 'Noto Sans JP', sans-serif;
+ }
+
+
+
    /* <!--Natalie> */
  .holdingcontainer{
   width: 100%;

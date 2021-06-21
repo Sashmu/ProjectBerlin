@@ -119,48 +119,6 @@ height: 100vh;
    text-align: left;
    color: #BEB7A4;
  }
-   /* <!--Natalie> */
- .holdingcontainer{
-  width: 100%;
-  display: flex;
-  padding: 50px;
-  box-sizing: border-box;
-  flex-direction: row;
-}
-.internalcontainerL{
-  flex: 1;
-  background:black;
-  padding: 30px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 3px;
-  color: white;
-}
-.internalcontainerM{
-  flex: 1;
-  background: black;
-  padding: 30px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 3px;
-  color: white;
-}
-.internalcontainerR{
-  flex: 1;
-  background: black;
-  padding: 30px;
-  font-size: 12px;  
-  font-family: 'Roboto', sans-serif;   
-  margin: 3px; 
-  color: white;
-}
-@media screen and (max-width: 768px){
- .holdingcontainer{
-  flex-direction: column;
- }
-}
-/* <!--Natalie> */
-
 
 /* swiper css */
  .swiper-container {
@@ -205,3 +163,110 @@ margin :2rem
 slider-heading{
   color:FFFFFC;
 }
+  /* Flex box */
+  .holdingcontainer{
+    width: 100%;
+    display: flex;
+    padding: 250px;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .internalcontainer1{
+    /*flex: 1;*/
+    background:black;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+    color: white;
+  }
+  .internalcontainer2{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+    color: white;
+  }
+  .internalcontainer3{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  .internalcontainer4{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  .internalcontainer5{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  .internalcontainer6{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  .internalcontainer7{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  .internalcontainer8{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  .internalcontainer9{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  .internalcontainer10{
+    flex: 1;
+    background: black;
+    padding: 30px;
+    font-size: 12px;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 3px; 
+    color: white;
+  }
+  @media screen and (max-width: 768px){
+   .holdingcontainer{
+    flex-direction: column;
+   }
+
+  /*  */
+  

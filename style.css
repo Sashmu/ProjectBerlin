@@ -261,8 +261,19 @@ background-color:#DCDCDC ;
   border:3px solid black;
  
 }
-   /* <!--Natalie> */
- .holdingcontainer{
+/*Clubbing
+.holdingcontainer{
+  padding: 150px;
+  color: white;
+  margin-top: 100px;
+}
+@include media-breakpoint-down(md) {
+  .custom-class {
+    display: block;
+  }
+  */
+
+ /*.holdingcontainer{
   width: 100%;
   display: flex;
   padding: 50px;
@@ -303,3 +314,4 @@ background-color:#DCDCDC ;
 }
 /* <!--Natalie> */
 
+/* <!--NEW CSS> */

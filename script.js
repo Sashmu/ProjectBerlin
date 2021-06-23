@@ -39,3 +39,28 @@ const alert=document.querySelector('.alert')
   alert.classList.remove("disappear");
  alert.classList.add("block");
    });
+
+const tips=document.querySelector('.tips')
+const tipdiv = document.querySelector('.tipdiv')
+let state = true;
+tips.addEventListener('click', function () {
+   if (state) {
+      tipdiv.classList.remove("disappear");
+      tipdiv.classList.add("block");
+   } else {
+      tipdiv.classList.remove("block");
+      tipdiv.classList.add("disappear");
+   }
+   state = !(state);
+});
+
+function ellipsizeTextBox(id) {
+   var el = document.querySelector(id);
+   var wordArray = el.innerHTML.split(' ');
+   while(el.scrollHeight > el.offsetHeight) {
+       wordArray.pop();
+       el.innerHTML = wordArray.join(' ') + '...';
+    }
+}
+
+ellipsizeTextBox('bar-content');

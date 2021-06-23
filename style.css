@@ -162,6 +162,31 @@ font-size: 2.8rem;
 .card-img-top:hover{
   transform: scale(1.2);
 }
+.tipsheading{
+  font-family: 'Dancing Script', cursive;}
+  .tipscontent {
+    font-family: 'Nunito', sans-serif;
+    color:black;
+    font-size:1.15rem;
+}
+.tipdiv{
+  color:#FFFFFC;
+  border:1px solid black;
+  margin-bottom:2rem;
+  padding:2rem;
+  background-color:#BEB7A4 ;
+  border-radius: 10px;
+   }
+   .disappear{
+    display:none !important;
+  }
+  .block {
+    display: inline;
+  }
+  .footerlink li a{
+    color: #282C35;
+  }
+  
 .swiper-slide{
   transition: transform .3s ease; 
 }
@@ -230,7 +255,7 @@ margin :1rem
 }
 
 .footerimg{
-  width: 80%;
+  width: 60%;
   
 }
 .footer-custom{
@@ -242,12 +267,6 @@ background-color:#DCDCDC ;
 }
 .btn-submit{
   background-color: #DEB841;
-}
-.disappear{
-  display:none;
-}
-.block {
-  display: inline;
 }
 
 /* Eat and drink */
@@ -274,6 +293,29 @@ background-color:#DCDCDC ;
   */
 
  /*.holdingcontainer{
+.barname{
+ color: #282C35 ;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:2rem
+ }
+ .bar-content{
+  color: #282C35;
+  font-family: 'Noto Sans JP', sans-serif;
+ }
+
+ .img-club{
+   width:100%;
+   object-fit: cover;
+ }
+ .eattitle{
+color:#FFFFFC;
+font-family:'Dancing Script', cursive;
+font-size:5rem;
+ }
+ 
+
+   /* <!--Natalie> */
+ .holdingcontainer{
   width: 100%;
   display: flex;
   padding: 50px;

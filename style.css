@@ -129,19 +129,22 @@ height: 100vh;
  .homeheading{
    color:#BEB7A4;
   font-family: 'Dancing Script', cursive;
-  margin:3.5rem;
+  margin-top:3rem;
+  /* margin-bottom:0.5rem; */
   font-size: 2rem;
   }
   .headtitle{
-    color:#F5F5F5;
+    color: #DEB841;
     font-family:'Dancing Script', cursive;
     font-size:5rem;
      }
  .card-heading{
    color:#F5F5F5;
+   word-spacing: 0.3rem;
+   font-family: 'Nunito', sans-serif;
  }
 
- .card-title{
+ .subheading{
    font-style: normal;
    font-weight: bold;
    font-size: 3rem;
@@ -152,6 +155,7 @@ height: 100vh;
    text-align: center;
    letter-spacing: 0.2rem;
     color: #FFFFFC;
+   
  }
 
  .card-text{
@@ -308,6 +312,10 @@ background-color:#DCDCDC ;
  font-family:'Dancing Script', cursive;
  font-size:5rem;
   }
+  .clubname{
+    font-family: 'Nunito', sans-serif;
+    font-size:2rem;
+  }
  
   
 /*Clubbing
@@ -365,11 +373,11 @@ background-color:#DCDCDC ;
  .holdingcontainer{
   flex-direction: column;
  } */
-.card-title{
+/* .card-title{
  color: #282C35 ;
   font-family: 'Noto Sans JP', sans-serif;
   font-size:2rem
- }
+ } */
  .bar-content{
   color: #282C35;
   font-family: 'Noto Sans JP', sans-serif;
@@ -381,6 +389,6 @@ background-color:#DCDCDC ;
  }
 .clubbingbutton{
   background-color: 	#E0E0E0 ;
-  border-color: 	#E0E0E0; 
+  border: 2px solid black;
 }
  

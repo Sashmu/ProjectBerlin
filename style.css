@@ -121,18 +121,25 @@ height: 100vh;
 
  }
  
- .cardheadtitle{
+ .homecardheadtitle{
   font-family: 'Nunito', sans-serif;
   color:#F5F4F5;
-font-size: 2.8rem;
+  font-size: 2.8rem;
  }
- .card-heading{
+ .homeheading{
    color:#BEB7A4;
   font-family: 'Dancing Script', cursive;
   margin:3.5rem;
   font-size: 2rem;
   }
-
+  .headtitle{
+    color:#F5F5F5;
+    font-family:'Dancing Script', cursive;
+    font-size:5rem;
+     }
+ .card-heading{
+   color:#F5F5F5;
+ }
 
  .card-title{
    font-style: normal;
@@ -320,7 +327,7 @@ background-color:#DCDCDC ;
  
 
    /* <!--Natalie> */
- .holdingcontainer{
+ /* .holdingcontainer{
   width: 100%;
   display: flex;
   padding: 50px;
@@ -357,8 +364,23 @@ background-color:#DCDCDC ;
 @media screen and (max-width: 768px){
  .holdingcontainer{
   flex-direction: column;
+ } */
+.card-title{
+ color: #282C35 ;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:2rem
  }
-}
-/* <!--Natalie> */
+ .bar-content{
+  color: #282C35;
+  font-family: 'Noto Sans JP', sans-serif;
+ }
 
-/* <!--NEW CSS> */
+ .img-club{
+   width:100%;
+   object-fit: cover;
+ }
+.clubbingbutton{
+  background-color: 	#E0E0E0 ;
+  border-color: 	#E0E0E0; 
+}
+ 

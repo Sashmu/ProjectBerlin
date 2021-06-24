@@ -280,6 +280,29 @@ background-color:#DCDCDC ;
   border:3px solid black;
  
 }
+
+
+.barname{
+  color: #282C35 ;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-size:2rem
+  }
+  .bar-content{
+   color: #282C35;
+   font-family: 'Noto Sans JP', sans-serif;
+  }
+ 
+  .img-club{
+    width:100%;
+    object-fit: cover;
+  }
+  .eattitle{
+ color:#FFFFFC;
+ font-family:'Dancing Script', cursive;
+ font-size:5rem;
+  }
+ 
+  
 /*Clubbing
 .holdingcontainer{
   padding: 150px;
@@ -293,25 +316,7 @@ background-color:#DCDCDC ;
   */
 
  /*.holdingcontainer{
-.barname{
- color: #282C35 ;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size:2rem
- }
- .bar-content{
-  color: #282C35;
-  font-family: 'Noto Sans JP', sans-serif;
- }
 
- .img-club{
-   width:100%;
-   object-fit: cover;
- }
- .eattitle{
-color:#FFFFFC;
-font-family:'Dancing Script', cursive;
-font-size:5rem;
- }
  
 
    /* <!--Natalie> */

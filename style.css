@@ -121,18 +121,25 @@ height: 100vh;
 
  }
  
- .cardheadtitle{
+ .homecardheadtitle{
   font-family: 'Nunito', sans-serif;
   color:#F5F4F5;
-font-size: 2.8rem;
+  font-size: 2.8rem;
  }
- .card-heading{
+ .homeheading{
    color:#BEB7A4;
   font-family: 'Dancing Script', cursive;
   margin:3.5rem;
   font-size: 2rem;
   }
-
+  .headtitle{
+    color:#F5F5F5;
+    font-family:'Dancing Script', cursive;
+    font-size:5rem;
+     }
+ .card-heading{
+   color:#F5F5F5;
+ }
 
  .card-title{
    font-style: normal;
@@ -292,8 +299,7 @@ background-color:#DCDCDC ;
   }
   */
 
- /*.holdingcontainer{
-.barname{
+.card-title{
  color: #282C35 ;
   font-family: 'Noto Sans JP', sans-serif;
   font-size:2rem
@@ -307,53 +313,8 @@ background-color:#DCDCDC ;
    width:100%;
    object-fit: cover;
  }
- .eattitle{
-color:#FFFFFC;
-font-family:'Dancing Script', cursive;
-font-size:5rem;
- }
+.clubbingbutton{
+  background-color: 	#E0E0E0 ;
+  border-color: 	#E0E0E0; 
+}
  
-
-   /* <!--Natalie> */
- .holdingcontainer{
-  width: 100%;
-  display: flex;
-  padding: 50px;
-  box-sizing: border-box;
-  flex-direction: row;
-}
-.internalcontainerL{
-  flex: 1;
-  background:black;
-  padding: 30px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 3px;
-  color: white;
-}
-.internalcontainerM{
-  flex: 1;
-  background: black;
-  padding: 30px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 3px;
-  color: white;
-}
-.internalcontainerR{
-  flex: 1;
-  background: black;
-  padding: 30px;
-  font-size: 12px;  
-  font-family: 'Roboto', sans-serif;   
-  margin: 3px; 
-  color: white;
-}
-@media screen and (max-width: 768px){
- .holdingcontainer{
-  flex-direction: column;
- }
-}
-/* <!--Natalie> */
-
-/* <!--NEW CSS> */

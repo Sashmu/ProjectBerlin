@@ -133,10 +133,11 @@ height: 100vh;
   /* margin-bottom:0.5rem; */
   font-size: 2rem;
   }
+
   .headtitle{
     color: #DEB841;
-    font-family:'Dancing Script', cursive;
-    font-size:5rem;
+    font-family: 'Dancing Script', cursive;
+    font-size:2.8rem;
      }
  .card-heading{
    color:#F5F5F5;
@@ -317,6 +318,42 @@ background-color:#DCDCDC ;
     font-size:2rem;
   }
  
+
+
+@media (min-width:320px) {
+  .subheading{ font-size: 2rem;
+
+  }
+  .homeheading {
+    font-size: 1.5rem;
+  }.title {
+    font-size: 2.35rem;
+  }.subtitle {
+    font-size: 1.5rem;
+  }.homecardheadtitle{
+    font-size: 2.2rem;
+  }.swiper-heading{
+    font-size: 2.2rem;
+  }
+}
+@media (min-width:480px) {
+  .subheading{
+    font-size: 2rem;
+  }
+  .homeheading {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 2.35rem;
+  }.subtitle {
+    font-size: 1.5rem;
+  }.homecardheadtitle{
+    font-size: 2.2rem;
+  }
+  .swiper-heading{
+    font-size: 2.2rem;
+  }
+}
   
 /*Clubbing
 .holdingcontainer{
